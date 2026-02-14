@@ -8,7 +8,7 @@ body {
     width: 100vw;
     font-family: "Playwrite CU", cursive;
     font-weight: 200;
-    background-color: #f1e3d3;
+    background-color: #7300a5;
     overflow: hidden;
 }
 
@@ -30,10 +30,16 @@ body {
     text-align: justify;
     padding-left: 30px;
     padding-right: 30px;
+    color: white;
+}
+
+#card p b {
+    color: rgb(255, 175, 175);
+    font-weight: bold;
 }
 
 .side {
-    background: #eee;
+    background: #eeeeee;
     height: 550px;
     width: 400px;
     padding: 10px;
@@ -41,19 +47,18 @@ body {
 
 .side.one {
     width: 320px;
-    transform: skew(10deg, 20deg);
-    background: linear-gradient(90deg, #fff, #fff 40%, #ddd);
+    background: linear-gradient(90deg, #7e9cff, #c955ff 40%, #873fe6);
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: skew(10deg, 20deg);
+    transform: skew(10deg, 18deg);
     position: relative;
     overflow: hidden;
 }
 
 .side.two {
     transform: skew(10deg, -15deg);
-    background: linear-gradient(-90deg, #fff, #fff 40%, #f0f0f0);
+    background: linear-gradient(-90deg, #7e9cff, #ad55ff 40%, #9341ff);
 }
 
 .valentines-day {
@@ -71,7 +76,7 @@ body {
     position: absolute;
     width: 254px;
     height: 254px;
-    background-color: #ff9494;
+    background-color: #9376e2;
     transform: rotate(-45deg);
     border-radius: 0 15px 0 0;
     left: -37px;
@@ -81,7 +86,7 @@ body {
 .envelope:after {
     content: "";
     position: absolute;
-    background-color: #ff9494;
+    background-color: #9376e2;
     width: 360px;
     height: 225px;
     left: -90px;
@@ -90,7 +95,7 @@ body {
 
 .heart {
     position: relative;
-    background-color: #e01911;
+    background-color: #fa726d;
     display: inline-block;
     height: 180px;
     top: 50px;
@@ -104,7 +109,7 @@ body {
 .heart:before,
 .heart:after {
     content: "";
-    background-color: #e01911;
+    background-color: #fa726d;
     border-radius: 50%;
     height: 180px;
     width: 180px;
@@ -125,7 +130,7 @@ body {
     position: absolute;
     width: 0;
     height: 0;
-    border-right: 190px solid #fbd2d2;
+    border-right: 190px solid #a788fc;
     border-top: 113px solid transparent;
     border-bottom: 113px solid transparent;
     top: 44px;
@@ -138,7 +143,7 @@ body {
     position: absolute;
     width: 0;
     height: 0;
-    border-left: 190px solid #fbd2d2;
+    border-left: 190px solid #a788fc;
     border-top: 113px solid transparent;
     border-bottom: 113px solid transparent;
     top: -113px;
@@ -150,7 +155,7 @@ body {
     height: 0;
     position: absolute;
     content: "";
-    border-bottom: 150px solid #fce7e9;
+    border-bottom: 150px solid #b59aff;
     border-right: 180px solid transparent;
     border-left: 180px solid transparent;
     top: -36px;
